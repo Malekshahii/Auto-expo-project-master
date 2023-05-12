@@ -247,3 +247,472 @@ font-size: 65px;
 margin-bottom: 0px;
 color: white;
 }
+
+/* محتوا بدنه */
+
+.contain{
+    text-align: -webkit-center;
+
+
+}
+.contain h3{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.contain p{
+    margin: 0px 0px 6px 0px;
+    font-weight: 100;
+
+}
+.img-but{
+    margin-top: -6px;
+}
+.img-but-r{
+    transform: rotate(180deg);
+    margin-bottom: -10px;
+}
+
+
+/* اسلایدر */
+
+.plac-contain-slider{
+    background-color: white;
+    box-shadow: 0px 100px 200px #eb53250c inset;
+}
+
+
+.contain-slider{
+    margin-right: 40px;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px 150px 0px;
+
+}
+.left-slider{
+    width: 40%;
+}
+
+#slider{
+    width: 60%;
+    position: relative;
+    margin: 20px auto;
+  
+    border-radius: 20px;
+    
+}
+
+#slider img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow:  45px 45px 100px #c7c7c775,    -45px -45px 100px #f9f9f9;
+}
+
+.slide{
+    display: none;
+}
+
+.active{
+    display: block;
+ 
+    animation: bounceIn 0.5s;
+}
+
+@keyframes bounceIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+  }
+
+
+
+.slider-button{
+    background: none;
+    border: none;
+    color: white;
+    border-radius:50% ;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.slider-button:hover{
+    transition: 0.5s;
+    color: #eb5425;
+
+}
+
+
+
+.prev , .next{
+    font-size: 35px;
+    position: absolute;
+    top: 40%;
+    font-weight: 700;
+}
+
+.prev{
+    right: -10px;
+}
+
+.next{
+    left: -10px;
+}
+
+
+/* اسلایدر  */
+
+.img-left-slider{
+    width: 78%;
+    border-radius: 15px;
+    box-shadow:  -45px 45px 100px #c7c7c775,    45px -45px 100px #f9f9f9;
+}
+
+
+
+/* ماشین ها برگزیده */
+
+.top-title{
+    padding-top: 100px;
+    max-width: 1300px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.top-place{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+}
+.top-title-hr{
+    width: 70%;
+    height: 40px;
+    border-top: solid 6px #eb5425;
+    border-radius: 14%;
+}
+
+.top-contain{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 42, 53, 0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.top-place-right{
+    width: 33.33%;
+}
+.top-place2{
+    width: 100%;
+    height: 250px;
+}
+
+
+.plac-top-contain{
+    margin: 15px 20px;
+}
+.plac-top-contain h3{
+    font-size: 20px;
+    color: #eb5425;
+    text-shadow: 0px 0px 5px black;
+}
+.plac-top-contain{
+font-size:15px;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.right-2part1{
+    background-image: url(img/r1.jpg);
+    margin:  0px -40px 20px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.right-2part1:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.right-2part2{
+    background-image: url(img/r2.jpg);
+    margin:  0px -40px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+
+}
+.right-2part2:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+
+
+.left-2part1{
+    background-image: url(img/l1.jpg);
+    margin: 0px 20px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.left-2part1:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.left-2part2{
+    background-image: url(img/l2.jpg);
+    margin: 20px 20px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.left-2part2:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+
+.top-place-center{
+    width: 33.33%;
+    border-radius: 20px;
+}
+.top-place-center:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+
+
+.top-place-right-1part{
+background-image: url(img/c.jpg);
+width: 100%;
+height: 100%;
+margin: 0px 0px 0px 0px;
+border-radius: 20px;
+}
+
+
+
+.top-place-left{
+    width: 33.33%;
+}
+
+
+
+
+
+
+
+.contain-top2{
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contain-top2-plac{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+}
+
+.contain-top2-import-place{
+    height: 280px;
+    margin: 20px 20px;
+    border-radius: 10px
+}
+
+
+
+.contain-top2-import{
+    width: 25%;
+    display:flex ;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+}
+.contain-top2-import:hover{
+    color: #eb5425;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+.new-car{
+    max-width: 1370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.new-car-import{
+    width: 25%;
+}
+
+
+
+
+
+
+/* محصولات جدید ماشین ها جدید */
+
+.card{
+    position: relative;
+    box-shadow: 0px 0px 20px -10px black;
+    height: 290px;
+    color: #eb5425;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 10px;
+
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px -6px black;
+    transition: 0.3s;
+}
+
+.card-content{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+    background-color: white;
+    border-top-left-radius:30px;
+    transform: translateY(70px);
+    transition: transform .25s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.card-content p,h4,span{
+    padding-right: 10px;
+}
+.card-content span{
+margin-top:-14px;
+z-index: 1;
+}
+
+
+.card-content::before{
+    content: '';
+    position: absolute;
+    top: -47px;
+    right: -45px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-175deg);
+    border-radius: 50%;
+    box-shadow: inset 48px 48px #fff;
+    z-index: 0;
+}
+
+.card-title{
+    color: #6a515e;
+    line-height: 15px;
+    z-index: 1;
+
+
+}
+
+.card-subtitle{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.card-description{
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .5s;
+    width: 100%;
+}
+
+
+.card-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card:hover .card-content{
+    transform: translateY(0);
+
+}
+
+.card:hover .card-description {
+    opacity: 1;
+    transition-delay:.25s ;
+    
+}
+
+.tik{
+    margin-top: 150px;
+    height: 100px;
+    background: url(img/tik.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tik-plac{
+    
+    background-color: rgba(36, 42, 53, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff8e6c;
+    font-size: 20px;
+  
+}
+
+
+.plac2{
+    background: white;
+    box-shadow: 0px 100px 200px #eb53250c inset;
+
+}
+.news{
+    width: 1400px;
+    display: flex;
+}
+.news-info{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 100px;
+}
+
+.news p:hover{
+color: #eb5425;
+transition: 0.3s;
+cursor: pointer;
+}
+
+
