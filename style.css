@@ -716,3 +716,83 @@ cursor: pointer;
 }
 
 
+/* footer */
+footer{
+    text-align: -webkit-center;
+
+}
+
+.footer-holder{
+    max-width: 1600px;
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    border-radius: 40% 15% 0% 0%;
+
+}
+.footer{
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px);
+    height: 460px;
+    border-radius: 40% 15% 0% 0%;
+    box-shadow: 0px -60px 100px rgb(255 255 255);
+}
+
+
+.footerin{
+display: flex;
+justify-content: center;
+width: 100%;
+padding-top: 150px;
+color: white;
+font-size: 20px;
+}
+
+.footer-right{
+    width: 60%;
+}
+
+.footer-left{
+    width: 40%;
+    z-index: 0;
+}
+
+.wrapper-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #eb5425;
+    width: 70%;
+    padding-top: 30px;
+    border-radius: 10%;
+  }
+  .wrapper-btn button {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    border: none;
+    margin: 0px 1.5rem;;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .wrapper-btn button:hover {
+    box-shadow: 0 0 30px #eb5425;
+    transition: 00.3s;
+
+  }
+
+  .wrapper-btn button:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(1.5);
+    animation: pulse 1.5s infinite;
+  }
+  
