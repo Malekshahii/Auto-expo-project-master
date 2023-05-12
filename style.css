@@ -211,3 +211,39 @@ form:hover .fa{
 }
 
 /* سرچ باکس */
+
+
+.fasele-under-header{
+    height: 200px;
+    
+}
+
+.typewrite > .wrap { 
+  color: #eb5425;
+  font-family: vazir;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.text-under-header{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    width: 100%;
+}
+
+
+.text-under-header-left{
+    width: 68%;
+    height: 300px;
+}
+.text-under-header-right{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-under-header-right h2{
+font-size: 65px;
+margin-bottom: 0px;
+color: white;
+}
