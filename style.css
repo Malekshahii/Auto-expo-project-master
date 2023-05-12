@@ -1,0 +1,13 @@
+@font-face {
+    font-family: vazir;
+    src: url(font/Vazir.woff);
+  }
+body{
+    background-color: #eb53250c;
+    direction: rtl;
+    font-family: vazir;
+    margin: 0px;
+}
+:root{
+    scroll-behavior: smooth;
+}
