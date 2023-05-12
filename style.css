@@ -11,3 +11,23 @@ body{
 :root{
     scroll-behavior: smooth;
 }
+
+.login{
+    cursor: pointer;
+    font-family: vazir;
+    font-size: 16px;
+    border-radius: 40px;
+    border: solid 1px white;
+    color: white;
+    background-color: rgba(240, 255, 255, 0);
+    padding: 10px;
+    margin: 4px 25px 0px 0px;
+
+}
+.login:hover{
+    transition: all 0.3s;
+    background-color: #eb532577;
+    color: white;
+    border: 1px solid #eb5425;
+    box-shadow: 0 0 20px #eb5425;
+}
