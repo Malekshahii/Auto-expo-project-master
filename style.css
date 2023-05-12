@@ -88,3 +88,126 @@ header{
 font-weight: 100;
 margin-top: 0px;
 }
+
+
+.meno{
+    margin: 0px;
+    list-style-type: none;
+}
+.meno li{
+
+    float: right;
+    padding: 20px 12px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+.meno li a{
+    text-decoration: none;;
+    padding: 6px;
+}
+.meno li a:link, a:visited {
+    color: white;
+}
+.meno li a:hover{
+    color: #eb5425;
+    border-bottom:2px solid  ;
+    transition: 0.3s;
+}
+
+
+.logo{
+    width: 170px;
+    margin: 6px 0px 0px -10px;
+}
+.svg{
+    width: 25px;
+ 
+}
+.svg1{
+    width: 40px;
+}
+.svg1:hover{
+    width: 45PX;
+    transition: 00.3s;
+}
+
+
+#blur{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/* سرچ باکس  */
+
+.header form {
+    margin-left: -500px;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(50%,-50%);
+    transition: all 1s;
+    width: 48px;
+    height: 48px;
+    background: #ffffff00;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 5px;
+    
+}
+
+
+.header input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 45px 0px 5px;
+    font-family: vazir;
+    margin: 0px;
+}
+.fa{
+    box-sizing: border-box;
+    padding: 10px 0px 0px 0px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 0.5s;
+
+}
+
+.header form:hover{
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #eb5425;
+    border: 2px solid #eb5425;
+}
+.header form:hover input{
+    display: block;
+    background-color: #eb532577;
+    color: white;
+
+
+}
+form:hover .fa{
+    background-color: rgba(0, 0, 0, 0.416);
+    color: white;
+    
+}
+
+/* سرچ باکس */
