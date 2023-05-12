@@ -31,3 +31,60 @@ body{
     border: 1px solid #eb5425;
     box-shadow: 0 0 20px #eb5425;
 }
+
+header{
+    text-align: -webkit-center;
+}
+.plac-header{
+    display: flex;
+    max-width: 1400px;
+    align-items: center;
+    margin-bottom: -80px;
+    margin-top: 10px;
+
+}
+
+
+#header-left{
+   
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+#header-right{
+    width: 70%;
+    display: flex;
+}
+
+.under-heder{
+    margin-top:0px;
+    background-image: url(img/car.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    border-radius: 0% 0% 50% 10%;
+    max-width: 1600px;
+    
+}
+
+
+
+.inder-under-heder{
+    max-width: 1600px;
+    margin-bottom: -60px;
+    padding: 16px 0px 0px 0px;
+
+    /* box-shadow: 0px 50px 120px rgb(255 255 255); */
+}
+.inder-under-heder h1{
+    padding-top: 100px;
+    margin: 0px;
+    font-size: 60px;
+    color: #eb5425;
+    text-shadow:0px 0px 20px white;
+}
+
+.inder-under-heder h2{
+font-weight: 100;
+margin-top: 0px;
+}
